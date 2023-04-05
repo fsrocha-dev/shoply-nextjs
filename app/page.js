@@ -1,12 +1,9 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import styles from './page.module.css';
 
 export default function Home() {
-	return (
-		<main className={styles.main}>
-			<h1 className="text-3xl font-bold underline">
-				Hello Next!
-			</h1>
-		</main>
-	)
+  return (
+    <main className={styles.main}>
+      <h1 className="text-3xl font-bold underline">Hello Next!</h1>
+    </main>
+  );
 }
