@@ -2,6 +2,11 @@
   "name": "shoply",
   "version": "0.1.0",
   "private": true,
+	"engines": {
+		"node": ">=18.12.1",
+		"npm": ">=8.19.2",
+		"yarn": "sorry"
+	},
   "scripts": {
     "dev": "next dev",
     "build": "next build",
